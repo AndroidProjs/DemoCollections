@@ -1,0 +1,9 @@
+<resources>
+    <string name="recycler_view_demo_name">RecycleViewDemo</string>
+    <string name="add">Add</string>
+    <string name="remove">remove</string>
+    <string name="listview">ListView</string>
+    <string name="gridview_horizontal">GridView Horizontal</string>
+    <string name="gridview_vertical">GridView Vertical</string>
+    <string name="staggeredview">StaggeredView</string>
+</resources>

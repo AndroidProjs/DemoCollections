@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edger.recycleviewdemo">
+
+    <application
+        android:label="@string/recycler_view_demo_name"
+        android:theme="@style/AppBaseTheme">
+        <activity android:name=".RecycleViewDemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".StaggeredViewActivity"></activity>
+    </application>
+
+</manifest>

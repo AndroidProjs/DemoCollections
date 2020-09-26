@@ -1,0 +1,4 @@
+include ':Algrithom', ':JavaDemo'
+include ':app', ':ListViewDemo', ':CommonModule', ':RecycleViewDemo',
+        ':NetworkDemo', ':ThreadDemo', ':ServiceDemo', ':NotificationDemo',
+        ':MaterialDesignDemo', ':CustomViewDemo', ':AnimationDemo', ':IPCDemo'

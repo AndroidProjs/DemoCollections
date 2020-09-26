@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.didichuxing.doraemonkit:doraemonkit:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://E:/Tools/.gradle/caches/transforms-2/files-2.1/67e1d5ed8dbd0e35464d1865024af48e/jetified-doraemonkit-2.0.1/jars/classes.jar!/" />
+      <root url="file://E:/Tools/.gradle/caches/transforms-2/files-2.1/67e1d5ed8dbd0e35464d1865024af48e/jetified-doraemonkit-2.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/Tools/.gradle/caches/modules-2/files-2.1/com.didichuxing.doraemonkit/doraemonkit/2.0.1/4e5dd68b09b24d1324f520768859eb1270e5b7c0/doraemonkit-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/Tools/.gradle/caches/modules-2/files-2.1/com.didichuxing.doraemonkit/doraemonkit/2.0.1/d810ee331d88275061aa27628f1131394148d063/doraemonkit-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.edger.networkdemo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:label="@string/network_demo_name"
+        android:theme="@style/Base.Theme.AppCompat.Light"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".http.OkHttpActivity" />
+        <activity android:name=".xml.XmlParserActivity" />
+        <activity android:name=".json.JSONParseActivity" />
+        <activity android:name=".http.HttpURLConnectionActivity" />
+        <activity android:name=".webview.WebViewActivity" />
+        <activity android:name=".NetworkDemoActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

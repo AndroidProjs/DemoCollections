@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.didichuxing.doraemonkit:doraemonkit-leakcanary:2.0.1@aar">
+    <CLASSES>
+      <root url="jar://E:/Tools/.gradle/caches/transforms-2/files-2.1/1719037e4995889cfefdaaaeca56d20e/jetified-doraemonkit-leakcanary-2.0.1/jars/classes.jar!/" />
+      <root url="file://E:/Tools/.gradle/caches/transforms-2/files-2.1/1719037e4995889cfefdaaaeca56d20e/jetified-doraemonkit-leakcanary-2.0.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/Tools/.gradle/caches/modules-2/files-2.1/com.didichuxing.doraemonkit/doraemonkit-leakcanary/2.0.1/56bc67e264a975048e819bfecea6a8c0ae599745/doraemonkit-leakcanary-2.0.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/Tools/.gradle/caches/modules-2/files-2.1/com.didichuxing.doraemonkit/doraemonkit-leakcanary/2.0.1/f757784177342c80443d920f9fc13ad015511418/doraemonkit-leakcanary-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

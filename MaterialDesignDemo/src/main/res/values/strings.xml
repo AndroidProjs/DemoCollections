@@ -1,0 +1,14 @@
+<resources>
+    <string name="material_demo_name">MaterialDemo</string>
+    <string name="material_toolbar_backup">Backup</string>
+    <string name="material_demo_toolbar_delete">Delete</string>
+    <string name="material_demo_toolbar_setting">Setting</string>
+    <string name="material_demo_drawer_layout_menu">This is menu</string>
+    <string name="material_demo_drawer_nav_call">Call</string>
+    <string name="material_demo_drawer_nav_friends">Friends</string>
+    <string name="material_demo_drawer_nav_location">Location</string>
+    <string name="material_demo_drawer_nav_mail">Mail</string>
+    <string name="material_demo_drawer_nav_task">Task</string>
+    <string name="material_demo_drawer_nav_header_mail">tonygreendev@gmail.com</string>
+    <string name="material_demo_drawer_nav_header_user_name">Tony Green</string>
+</resources>

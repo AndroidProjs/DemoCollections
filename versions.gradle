@@ -1,0 +1,20 @@
+ext.deps = [:]
+
+def versions = [:]
+versions.android_gradle_plugin = "3.2.1"
+
+deps.android_gradle_plugin = "com.android.tools.build:gradle:$versions.android_gradle_plugin"
+
+def build_versions = [:]
+build_versions.minSdkVersion = 23
+build_versions.targetSdkVersion = 28
+build_versions.compileSdkVersion = 28
+ext.build_versions = build_versions
+
+def addRepos(RepositoryHandler handler) {
+    handler.google()
+    handler.jcenter()
+    handler.mavenCentral()
+}
+
+ext.addRepos = this.&addRepos

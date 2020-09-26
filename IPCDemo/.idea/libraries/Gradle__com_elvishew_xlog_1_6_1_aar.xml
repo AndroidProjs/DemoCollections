@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.elvishew:xlog:1.6.1@aar">
+    <CLASSES>
+      <root url="jar://E:/Tools/.gradle/caches/transforms-2/files-2.1/2801905c529eba495345a1f61fda430c/jetified-xlog-1.6.1/jars/classes.jar!/" />
+      <root url="file://E:/Tools/.gradle/caches/transforms-2/files-2.1/2801905c529eba495345a1f61fda430c/jetified-xlog-1.6.1/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://E:/Tools/.gradle/caches/modules-2/files-2.1/com.elvishew/xlog/1.6.1/2de475e806cc4b9775eb271c8d17d30fc1f5e7d6/xlog-1.6.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://E:/Tools/.gradle/caches/modules-2/files-2.1/com.elvishew/xlog/1.6.1/19d715bb0145d8f702a241e41287b6ac7c124c06/xlog-1.6.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

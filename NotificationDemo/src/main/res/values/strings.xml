@@ -1,0 +1,4 @@
+<resources>
+    <string name="notification_app_name">NotificationDemo</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MaterialAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/MaterialColorPrimary</item>
+        <item name="colorPrimaryDark">@color/MaterialColorPrimaryDark</item>
+        <item name="colorAccent">@color/MaterialColorAccent</item>
+    </style>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/MaterialColorPrimary</item>
+        <item name="colorPrimaryDark">@color/MaterialColorPrimaryDark</item>
+        <item name="colorAccent">@color/MaterialColorAccent</item>
+    </style>
+</resources>

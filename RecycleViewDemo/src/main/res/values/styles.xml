@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="android:listDivider">@drawable/recycler_view_item_divider</item>
+    </style>
+</resources>

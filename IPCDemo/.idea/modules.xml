@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-340118612/Algrithom.iml" filepath="$PROJECT_DIR$/.idea/modules/-340118612/Algrithom.iml" group="DemoCollections/Algrithom" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1570623726/AnimationDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/1570623726/AnimationDemo.iml" group="DemoCollections/AnimationDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1235317328/CommonModule.iml" filepath="$PROJECT_DIR$/.idea/modules/-1235317328/CommonModule.iml" group="DemoCollections/CommonModule" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1199374290/CustomViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/1199374290/CustomViewDemo.iml" group="DemoCollections/CustomViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-113015850/DemoCollections.iml" filepath="$PROJECT_DIR$/.idea/modules/-113015850/DemoCollections.iml" group="DemoCollections" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/IPCDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/IPCDemo.iml" group="DemoCollections/IPCDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1571842786/JavaDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1571842786/JavaDemo.iml" group="DemoCollections/JavaDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/122399295/ListViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/122399295/ListViewDemo.iml" group="DemoCollections/ListViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1009331231/MaterialDesignDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1009331231/MaterialDesignDemo.iml" group="DemoCollections/MaterialDesignDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1869127592/NetworkDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1869127592/NetworkDemo.iml" group="DemoCollections/NetworkDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/2097856103/NotificationDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/2097856103/NotificationDemo.iml" group="DemoCollections/NotificationDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1094213986/RecycleViewDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/1094213986/RecycleViewDemo.iml" group="DemoCollections/RecycleViewDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-1856884385/ServiceDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/-1856884385/ServiceDemo.iml" group="DemoCollections/ServiceDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/341811910/ThreadDemo.iml" filepath="$PROJECT_DIR$/.idea/modules/341811910/ThreadDemo.iml" group="DemoCollections/ThreadDemo" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-509050776/app.iml" filepath="$PROJECT_DIR$/.idea/modules/-509050776/app.iml" group="DemoCollections/app" />
+    </modules>
+  </component>
+</project>

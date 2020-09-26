@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="PLATFORM" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="E:/Tools/.gradle" />
+        <option name="gradleJvm" value="1.8" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/.." />
+            <option value="$PROJECT_DIR$/../Algrithom" />
+            <option value="$PROJECT_DIR$/../AnimationDemo" />
+            <option value="$PROJECT_DIR$/../CommonModule" />
+            <option value="$PROJECT_DIR$/../CustomViewDemo" />
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/../JavaDemo" />
+            <option value="$PROJECT_DIR$/../ListViewDemo" />
+            <option value="$PROJECT_DIR$/../MaterialDesignDemo" />
+            <option value="$PROJECT_DIR$/../NetworkDemo" />
+            <option value="$PROJECT_DIR$/../NotificationDemo" />
+            <option value="$PROJECT_DIR$/../RecycleViewDemo" />
+            <option value="$PROJECT_DIR$/../ServiceDemo" />
+            <option value="$PROJECT_DIR$/../ThreadDemo" />
+            <option value="$PROJECT_DIR$/../app" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
