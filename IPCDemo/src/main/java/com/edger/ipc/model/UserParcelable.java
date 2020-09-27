@@ -13,6 +13,10 @@ public class UserParcelable implements Serializable, Parcelable {
     public String userName;
     public boolean isMale;
 
+    public UserParcelable() {
+
+    }
+
     public UserParcelable(int userId, String userName, boolean isMale) {
         this.userId = userId;
         this.userName = userName;

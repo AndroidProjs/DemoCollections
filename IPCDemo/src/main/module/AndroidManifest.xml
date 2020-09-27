@@ -1,4 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.edger.ipc">
+
+    <application>
+        <activity android:name=".provider.BookProviderActivity"></activity>
+    </application>
 
 </manifest>

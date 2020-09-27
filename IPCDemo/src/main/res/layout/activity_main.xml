@@ -51,4 +51,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_start_messenger_activity" />
 
+    <Button
+        android:id="@+id/btn_start_book_provider_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Book Provider Activity"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_start_book_manager_activity" />
+
+    <Button
+        android:id="@+id/btn_start_tcp_client_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start TCP client Activity"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_start_book_provider_activity" />
+
+    <Button
+        android:id="@+id/btn_start_binder_pool_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Binder Pool Activity"
+        android:textAllCaps="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_start_tcp_client_activity" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

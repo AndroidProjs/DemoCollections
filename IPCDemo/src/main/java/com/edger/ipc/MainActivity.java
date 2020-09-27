@@ -8,10 +8,13 @@ import android.widget.Button;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.edger.ipc.binder.BookManagerActivity;
+import com.edger.ipc.binderpool.BinderPoolActivity;
 import com.edger.ipc.messenger.MessengerActivity;
 import com.edger.ipc.multiprocess.FirstActivity;
 import com.edger.ipc.multiprocess.SecondActivity;
 import com.edger.ipc.multiprocess.ThirdActivity;
+import com.edger.ipc.provider.BookProviderActivity;
+import com.edger.ipc.socket.TcpClientActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -61,6 +64,33 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(MainActivity.this, BookManagerActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button startBookProviderActivity = findViewById(R.id.btn_start_book_provider_activity);
+        startBookProviderActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BookProviderActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button startTcpClientActivity = findViewById(R.id.btn_start_tcp_client_activity);
+        startTcpClientActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, TcpClientActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        Button startBinderPoolActivity = findViewById(R.id.btn_start_binder_pool_activity);
+        startBinderPoolActivity.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, BinderPoolActivity.class);
                 startActivity(intent);
             }
         });

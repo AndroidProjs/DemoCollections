@@ -11,12 +11,19 @@
         android:protectionLevel="normal" />
 
     <application
-        android:name="com.edger.ipc.IPCApplication"
+        android:name=".IPCApplication"
         android:allowBackup="true"
         android:label="@string/ipc_demo_name"
         android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity android:name=".binderpool.BinderPoolActivity"></activity>
+
+        <service
+            android:name=".binderpool.BinderPoolService"
+            android:enabled="true"
+            android:exported="true" />
+
         <activity
-            android:name="com.edger.ipc.MainActivity"
+            android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
             android:label="@string/ipc_demo_name"
             android:launchMode="standard">
@@ -27,34 +34,51 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.edger.ipc.multiprocess.FirstActivity"
+            android:name=".multiprocess.FirstActivity"
             android:configChanges="screenLayout"
             android:label="@string/ipc_demo_name" />
         <activity
-            android:name="com.edger.ipc.multiprocess.SecondActivity"
+            android:name=".multiprocess.SecondActivity"
             android:configChanges="screenLayout"
             android:label="@string/ipc_demo_name"
             android:process=":remote" />
         <activity
-            android:name="com.edger.ipc.multiprocess.ThirdActivity"
+            android:name=".multiprocess.ThirdActivity"
             android:configChanges="screenLayout"
             android:label="@string/ipc_demo_name"
             android:process="com.edger.ipc.remote" />
         <activity
-            android:name="com.edger.ipc.messenger.MessengerActivity"
+            android:name=".messenger.MessengerActivity"
             android:configChanges="screenLayout"
             android:label="@string/ipc_demo_name" />
         <activity
-            android:name="com.edger.ipc.binder.BookManagerActivity"
+            android:name=".binder.BookManagerActivity"
+            android:configChanges="screenLayout"
+            android:label="@string/ipc_demo_name" />
+        <activity
+            android:name=".provider.BookProviderActivity"
+            android:configChanges="screenLayout"
+            android:label="@string/ipc_demo_name" />
+        <activity
+            android:name=".socket.TcpClientActivity"
             android:configChanges="screenLayout"
             android:label="@string/ipc_demo_name" />
 
         <service
-            android:name="com.edger.ipc.messenger.MessengerService"
+            android:name=".messenger.MessengerService"
             android:process=":remote" />
         <service
-            android:name="com.edger.ipc.binder.BookManagerService"
+            android:name=".binder.BookManagerService"
             android:process=":remote" />
+        <service
+            android:name=".socket.TcpServerService"
+            android:process=":remote" />
+
+        <provider
+            android:name=".provider.BookProvider"
+            android:authorities="com.edger.ipc.provider"
+            android:permission="com.edger.ipc.PROVIDER"
+            android:process=":provider" />
     </application>
 
 </manifest>
