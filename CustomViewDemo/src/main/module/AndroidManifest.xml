@@ -3,8 +3,10 @@
     package="com.edger.customview">
 
     <application>
+        <activity android:name=".CustomViewActivity3"></activity>
         <activity android:name=".DrawingActivity" />
         <activity android:name=".CustomViewActivity" />
+        <activity android:name=".CustomViewActivity2" />
         <activity android:name=".CustomViewDemoActivity" />
     </application>
 

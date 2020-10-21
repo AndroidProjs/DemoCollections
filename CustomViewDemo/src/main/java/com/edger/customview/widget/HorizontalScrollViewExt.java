@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Scroller;
 
-public class HorizontalScrollViewEx extends ViewGroup {
+public class HorizontalScrollViewExt extends ViewGroup {
 
     private static final String TAG = "HorizontalScrollViewEx";
 
@@ -30,27 +30,23 @@ public class HorizontalScrollViewEx extends ViewGroup {
 
     private Scroller mScroller;
     private VelocityTracker mVelocityTracker;
+    public static final int VOLOCITY_THRESOLD_TO_CHANGE_PAGE = 50;
 
-    public HorizontalScrollViewEx(Context context) {
+    public HorizontalScrollViewExt(Context context) {
         super(context);
-        init();
     }
 
-    public HorizontalScrollViewEx(Context context, AttributeSet attrs) {
+    public HorizontalScrollViewExt(Context context, AttributeSet attrs) {
         super(context, attrs, 0);
-        init();
     }
 
-    public HorizontalScrollViewEx(Context context, AttributeSet attrs, int defStyleAttr) {
+    public HorizontalScrollViewExt(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
-        init();
     }
 
-    private void init() {
-        if (mScroller == null) {
-            mScroller = new Scroller(getContext());
-            mVelocityTracker = VelocityTracker.obtain();
-        }
+    {
+        mScroller = new Scroller(getContext());
+        mVelocityTracker = VelocityTracker.obtain();
     }
 
     @Override
@@ -104,9 +100,10 @@ public class HorizontalScrollViewEx extends ViewGroup {
                 break;
             case MotionEvent.ACTION_UP:
                 int scrollX = getScrollX();
+                Log.d(TAG, "onTouchEvent: scrollx " + scrollX);
                 mVelocityTracker.computeCurrentVelocity(1000);
                 float xVelocity = mVelocityTracker.getXVelocity();
-                if (Math.abs(xVelocity) >= 50) {
+                if (Math.abs(xVelocity) >= VOLOCITY_THRESOLD_TO_CHANGE_PAGE) {
                     mChildIndex = xVelocity > 0 ? mChildIndex - 1 : mChildIndex + 1;
                 } else {
                     mChildIndex = (scrollX + mChildWidth >> 1) / mChildWidth;

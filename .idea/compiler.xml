@@ -1,8 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7">
       <module name="Algrithom" target="1.7" />
+      <module name="DemoCollections.AnimationDemo" target="1.8" />
+      <module name="DemoCollections.app" target="1.8" />
+      <module name="DemoCollections.CommonModule" target="1.8" />
+      <module name="DemoCollections.CustomViewDemo" target="1.8" />
+      <module name="DemoCollections.IPCDemo" target="1.8" />
+      <module name="DemoCollections.ListViewDemo" target="1.8" />
+      <module name="DemoCollections.MaterialDesignDemo" target="1.8" />
+      <module name="DemoCollections.NetworkDemo" target="1.8" />
+      <module name="DemoCollections.NotificationDemo" target="1.8" />
+      <module name="DemoCollections.RecycleViewDemo" target="1.8" />
+      <module name="DemoCollections.ServiceDemo" target="1.8" />
+      <module name="DemoCollections.ThreadDemo" target="1.8" />
       <module name="JavaDemo" target="1.7" />
     </bytecodeTargetLevel>
   </component>

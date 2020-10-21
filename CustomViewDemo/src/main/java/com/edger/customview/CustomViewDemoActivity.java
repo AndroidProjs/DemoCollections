@@ -32,7 +32,9 @@ public class CustomViewDemoActivity extends AppCompatActivity implements Adapter
     private void initListData() {
         List<String> entryList = new LinkedList<>();
         entryList.add("（一）Custom View Demo");
-        entryList.add("（二）Drawing Demo");
+        entryList.add("（二）Custom View Demo2");
+        entryList.add("（三）Custom View Demo3");
+        entryList.add("（四）Drawing Demo");
 
         entryAdapter = new EntryAdapter(this, entryList);
     }
@@ -65,6 +67,14 @@ public class CustomViewDemoActivity extends AppCompatActivity implements Adapter
                 startActivity(intent);
                 break;
             case 1:
+                intent = new Intent(this, CustomViewActivity2.class);
+                startActivity(intent);
+                break;
+            case 2:
+                intent = new Intent(this, CustomViewActivity3.class);
+                startActivity(intent);
+                break;
+            case 3:
                 intent = new Intent(this, DrawingActivity.class);
                 startActivity(intent);
                 break;

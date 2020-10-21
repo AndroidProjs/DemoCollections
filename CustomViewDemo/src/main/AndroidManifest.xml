@@ -3,6 +3,7 @@
     package="com.edger.customview">
 
     <application
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
         android:label="@string/custom_view_demo">
         <activity android:name=".CustomViewDemoActivity">
             <intent-filter>
@@ -11,6 +12,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".DrawingActivity" />
+        <activity android:name=".CustomViewActivity" />
+        <activity android:name=".CustomViewActivity2" />
     </application>
 
 </manifest>

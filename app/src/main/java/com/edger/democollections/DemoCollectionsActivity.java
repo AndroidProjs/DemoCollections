@@ -9,7 +9,6 @@ import android.widget.ListView;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.edger.animation.AnimationActivity;
-import com.edger.customview.CustomViewActivity;
 import com.edger.customview.CustomViewDemoActivity;
 import com.edger.listviewdemo.ListViewDemoActivity;
 import com.edger.materialdemo.MaterialDemoActivity;

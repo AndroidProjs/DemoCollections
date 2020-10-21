@@ -11,7 +11,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
 
-import com.edger.customview.widget.HorizontalScrollViewEx;
+import com.edger.customview.widget.HorizontalScrollViewExt;
 
 import java.util.ArrayList;
 
@@ -19,7 +19,11 @@ public class CustomViewActivity extends AppCompatActivity {
 
     private static final String TAG = "CustomViewActivity";
 
-    private HorizontalScrollViewEx mHorizontalScrollViewEx;
+    private HorizontalScrollViewExt mHorizontalScrollViewEx;
+
+    int[] colors = {Color.parseColor("#9986b0ed"),
+            Color.parseColor("#99b3c7e6"), Color.parseColor("#994072bf"),
+            Color.parseColor("#FF8F00")};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +35,7 @@ public class CustomViewActivity extends AppCompatActivity {
 
     private void initViews() {
         LayoutInflater inflater = getLayoutInflater();
-        mHorizontalScrollViewEx = findViewById(R.id.custom_demo_horizontal_scrollview_ex);
+        mHorizontalScrollViewEx = findViewById(R.id.custom_demo_horizontal_scrollview_ex2);
         final int screenWidth = getResources().getDisplayMetrics().widthPixels;
         final int screenHeight = getResources().getDisplayMetrics().heightPixels;
         for (int i = 0; i < 3; i++) {
@@ -40,7 +44,7 @@ public class CustomViewActivity extends AppCompatActivity {
             layout.getLayoutParams().width = screenWidth;
             TextView textView = layout.findViewById(R.id.custom_demo_list_view_title);
             textView.setText("page " + (i + 1));
-            layout.setBackgroundColor(Color.rgb(255 / (i + 1), 255 / (i + 1), 255));
+            layout.setBackgroundColor(colors[i]);
             creatList(layout);
             mHorizontalScrollViewEx.addView(layout);
         }
