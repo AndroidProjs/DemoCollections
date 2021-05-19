@@ -31,8 +31,15 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
     api 'com.elvishew:xlog:1.6.1'
-    api 'com.squareup.okhttp3:okhttp:3.11.0'
-    api 'com.google.code.gson:gson:2.8.6'
+
     api 'com.blankj:utilcode:1.26.0'
+
+    api 'com.google.code.gson:gson:2.8.6'
+    
+    api 'com.squareup.okhttp3:okhttp:3.11.0'
     api 'com.squareup.retrofit2:retrofit:2.4.0'
+
+    implementation "io.reactivex.rxjava2:rxjava:2.2.2"
+    implementation "com.squareup.retrofit2:converter-gson:2.4.0"
+    implementation "com.squareup.retrofit2:adapter-rxjava:2.4.0"
 }
